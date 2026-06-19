@@ -1,6 +1,6 @@
 {
     "name": "@plurnk/plurnk-schemes-all",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "description": "Batteries-included bundle for plurnk-service's external scheme discovery — installs every first-party @plurnk/plurnk-schemes-* sibling (flat) so one dependency surfaces them all to the scan.",
     "keywords": [
         "plurnk",
@@ -30,6 +30,6 @@
         "README.md"
     ],
     "dependencies": {
-        "@plurnk/plurnk-schemes-http": "0.11.0"
+        "@plurnk/plurnk-schemes-http": "0.12.0"
     }
 }
