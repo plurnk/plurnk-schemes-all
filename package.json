@@ -1,6 +1,6 @@
 {
     "name": "@plurnk/plurnk-schemes-all",
-    "version": "0.1.28",
+    "version": "0.2.0",
     "description": "Batteries-included bundle for plurnk-service's external scheme discovery — installs every first-party @plurnk/plurnk-schemes-* sibling (flat) so one dependency surfaces them all to the scan.",
     "keywords": [
         "plurnk",
@@ -18,7 +18,7 @@
         "url": "git+https://github.com/plurnk/plurnk-schemes-all.git"
     },
     "engines": {
-        "node": ">=25"
+        "node": ">=26"
     },
     "license": "MIT",
     "author": "@wikitopian",
@@ -30,6 +30,6 @@
         "README.md"
     ],
     "dependencies": {
-        "@plurnk/plurnk-schemes-http": "0.14.16"
+        "@plurnk/plurnk-schemes-http": "0.15.0"
     }
 }
