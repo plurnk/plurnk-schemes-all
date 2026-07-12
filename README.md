@@ -1,3 +1,5 @@
+> **DEPRECATED.** The `-all` aggregators are retired — the default bundle is defined by `@plurnk/plurnk-service`'s own dependencies; optional plugins are installed individually. See `plurnk/plurnk-service` MIGRATION.md.
+
 # @plurnk/plurnk-schemes-all
 
 Batteries-included bundle for [plurnk-service](https://github.com/plurnk/plurnk-service)'s external `scheme` discovery. **It ships no code** — it's a single dependency that pulls in every first-party [`@plurnk/plurnk-schemes-*`](https://github.com/plurnk/plurnk-schemes) sibling, **flat**, so one install surfaces them all to the service's scope-agnostic `node_modules` scan (`plurnk.kind:"scheme"`).
